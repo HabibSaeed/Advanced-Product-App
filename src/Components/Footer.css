@@ -1,0 +1,20 @@
+.wave-footer {
+    background-image: url('https://wallpapers.com/images/hd4/kawaii-pink-and-white-paint-oj0fcmhqbhsjw1ln.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #fff;
+    color: black;
+    margin: 50px 0px 0px 0px;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wave-footer h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}

@@ -1,0 +1,91 @@
+.loginMain {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-image: url('https://wallpapers.com/images/hd4/kawaii-pink-and-white-paint-oj0fcmhqbhsjw1ln.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.loginMain:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.loginHeading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.inputContainer {
+    margin-bottom: 20px;
+}
+
+.label {
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #555;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.signupLink {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.signupLink:hover {
+    color: #0056b3;
+}
+
+.loginBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+    .loginMain {
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,64 @@
+.mainNavbar {
+    width: 95%;
+    height: 70px;
+    display: flex;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 12px 10px;
+    justify-content: space-between;
+    background-color: #fff !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbarNested1 {
+    display: flex;
+    align-items: center;
+}
+
+.navbarNested1 img {
+    width: 140px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbarNested2 ul {
+    margin-top: 9px;
+    text-align: center;
+    display: flex;
+}
+
+.navbarNested2 ul li {
+    margin: 0px 7px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0px !important;
+}
+
+.navbarNested2 .li {
+    text-decoration: none;
+}
+
+.navbarNested2 ul li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: lightgray;
+    transition: width 0.3s ease;
+}
+
+.navbarNested2 ul li:hover::before {
+    width: 100%;
+}
+
+.navbarNested2 ul li:hover {
+    color: #e2d0c2;
+    transition: all 0.3s ease-in-out;
+
+}

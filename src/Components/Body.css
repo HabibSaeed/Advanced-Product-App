@@ -1,0 +1,255 @@
+.bodyMain {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.bodyNested1 img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.bodyNested1 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.bodyNested2 {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bodyNested2 h1 {
+    margin: 15px 0;
+}
+
+.bodyNested2 p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 0;
+}
+
+.bodyNested2 p {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 0px;
+    word-wrap: break-word;
+}
+
+.bodyNested3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.same-1 {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.same-1:hover {
+    transform: translateY(-5px);
+}
+
+.firebase {
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.jses6 {
+    border: 2px solid #adad1f;
+    border-radius: 20px;
+}
+
+.react {
+    border: 2px solid #087ea4;
+    border-radius: 20px;
+}
+
+.addProduct {
+    width: 90% !important;
+    margin: 10px auto !important;
+}
+
+.productBtn {
+    padding: 11px 0px;
+    width: 100% !important;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.productBtn:hover {
+    background-color: #e2d0c2;
+    color: black;
+}
+
+.viewBtn {
+    text-decoration: none;
+    padding: 9px 20px;
+    color: #fff;
+    transition: all ease-in-out 0.4s;
+    background-color: #555;
+    border-radius: 7px;
+}
+
+.viewBtn:hover {
+    background-color: #087ea4;
+}
+
+.same-1 h2 {
+    margin: 0px !important;
+    text-align: center;
+}
+
+.spinner {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.static-spinner {
+    width: 100px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-left: 65px;
+    position: relative;
+}
+
+.static-fill {
+    width: 60%;
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.static-spinner-2 {
+    width: 100px;
+    height: 10px;
+    margin-left: 65px;
+    background-color: #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+.static-fill-2 {
+    width: 55%;
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.static-spinner-3 {
+    width: 100px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 65px;
+
+}
+
+.static-fill-3 {
+    width: 80%;
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.productsCard {
+    width: 100%;
+    margin: 30px auto 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.productCard {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.productCard:hover {
+    transform: translateY(-5px);
+}
+
+.productTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productPrice {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.productDescription {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 768px) {
+    .bodyMain {
+        flex-direction: row;
+    }
+
+    .bodyNested1 {
+        width: 40%;
+    }
+
+    .bodyNested2 {
+        width: 60%;
+    }
+
+    .addProduct {
+        margin: 10px auto !important;
+        text-align: center;
+    }
+
+}
